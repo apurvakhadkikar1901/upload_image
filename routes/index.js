@@ -31,7 +31,7 @@ router.get('/', (req, res, next) => {
     } else {
 
       viewData = {
-        title: 'Home',
+        title: 'UploadImages',
         viewName: 'imageuploder',
         accountName: config.getStorageAccountName(),
         containerName: containerName
