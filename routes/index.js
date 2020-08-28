@@ -29,7 +29,6 @@ router.get('/', (req, res, next) => {
       res.status(500);
 
     } else {
-
       viewData = {
         title: 'UploadImages',
         viewName: 'imageuploder',
